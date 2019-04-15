@@ -1,0 +1,114 @@
+<html lang="pt-br">
+<head>
+    <title>Consultório de dentista</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">   
+</head>
+    
+<style>
+    
+*{
+    box-sizing: border-box;
+}
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* Formatação do quadro central */
+    header{
+        background-image: url("img/imagem04.jpg");
+        background-repeat: no-repeat;
+        width:1333px;
+        height:2000px%;
+        background-size: cover;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: rgb(212, 54, 54);
+    }
+    /* Formatação da coluna da esquerda */
+    nav{
+        float: left;
+        width: 30%;
+        height: 324px;
+        /*background: #ccc;*/
+        padding: 20px;
+        border: ridge;
+        background-image: url("img/imagem03.jpg");
+        background-size: cover;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold; 
+        font-size: 20px;
+        color:black;       
+    }
+    /* Formatação da coluna da esquerda. O padding define a localização do texto */
+    nav ul {
+        list-style-type:none;
+        padding: 0;
+    }
+    /* Formatação da coluna central */
+    article {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        padding: 10px;
+        border: ridge;
+        background-image: url("img/imagem05.jpg");
+        background-size: cover;
+    }
+
+    /* Formatação do footer ou rodapé */
+    footer {
+        border: black;
+        background-color:rgb(38, 41, 82);
+        padding: 60px;
+        text-align: center;
+        color: white;
+    }
+    /* Formatação ajusta as 3 colunas */ 
+    @media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+    }
+
+</style>
+    <body>
+ 
+        <h2>CONSULTÓRIO ODONTOLÓGICO</h2>
+        <P>Atentem a todas especialidades</P>
+        <p>Confira nossos links</p>   
+        <p>Link:<a href="DOM.html">Árvore de DOM</a></p>
+        <p>Link:<a href="formulario.html">Formulário</a></p>
+        <p>Link:<a href="tabela.html">Tabela</a></p>
+
+        <header>
+            <h2>Doutora Marcela Carvalho</h2>
+            <p>Cirurgião Dentista</p>
+            
+        </header>
+
+        <section>
+            <nav>
+                <ul>
+                    <p><span style="color:rgba(112, 103, 104, 0.973)">ESPECIALIDADES</span></p>
+                    <P> </P>
+                    <li>PEDIATRIA</li>
+                    <P> </P>
+                    <li>HARMONIZAÇÃO OROFACIAL</li> 
+                    <P> </P>                      
+                    <li>APARELHO ORTODÔNTICO</li>
+                </ul>
+            </nav>
+            <article>
+                    <h1>  LOCALIZAÇÃO  </h1>
+                    <p>Duas unidades   </p>
+                    <p>Localizado na avenida Brasil e na cidade de Ouro Preto </p>
+                  </article>
+        </section>
+        <footer>
+                <p>Contato: 31 36439-2969</p>
+        </footer>
+    </body>
+</html>

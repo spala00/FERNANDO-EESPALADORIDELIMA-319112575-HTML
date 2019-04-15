@@ -1,0 +1,108 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>FORMULÁRIO</h1>
+    <h2>Preencha com seus dados pessoais</h2>
+    <p>link:<a href="index.html">Página Inicial</a></p>
+    
+    <fieldset>
+            <legend>Dados Pessoais</legend>
+            <table cellspacing="10">
+             <tr>
+                <td>
+                    Nome:
+                </td>
+                <td align="left">
+                    <input type="text" size="80">
+                </td>
+                <td>
+                    Sobrenome:
+                </td>
+                <td align="left">
+                    <input type="text" size="80">
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Nascimento:
+                </td>
+                <td align="left">
+                    <input type="text" name="dia" size="2" maxlength="2"> 
+                    <input type="text" name="mes" size="2" maxlength="2"> 
+                    <input type="text" name="ano" size="4" maxlength="4">
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Identidade:
+                </td>
+                <td align="left">
+                    <input type="text" name="rg" size="13" maxlength="13"> 
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    CPF:
+                </td>
+                <td align="left">
+                    <input type="text" size="9" maxlength="9"> - <input type="text" size="2" maxlength="2">
+                </td>
+             </tr>
+             <tr>
+                <td>Sexo: <br>
+                    <input type="radio" name="genero" value="male" checked> Masculino<br>
+                    <input type="radio" name="genero" value="female"> Feminino<br>
+                    <input type="radio" name="genero" value="other"> Outros 
+                </td>                    
+             </tr>
+             <tr> 
+                <td>Estado civil: <br> 
+                    <select>
+                        <option value="Solteiro">Solteiro</option>
+                        <option value="Casado">Casado</option>
+                        <option value="Divorciado">Divorciado</option>
+                        <option value="Viuvo">Viuvo</option>
+                    </select>
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Telefone:
+                </td>
+                <td align="left">
+                    <input type="text" size="2" maxlength="2"> - <input type="text" size="8" maxlength="8">
+                </td>
+             </tr>                
+             <tr>
+                <td>
+                   Celular:
+                </td>
+                <td align="left">
+                    <input type="text" size="2" maxlength="2"> - <input type="text" size="9" maxlength="9">
+                </td>
+             </tr>           
+             <tr>
+                <td>
+                    email:
+                </td>
+                <td align="left">
+                    <input type="text" name="rg" size="80" maxlength="80"> 
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Endereço:                    
+                </td>
+                <td align="left">
+                    <input type="text" size="80" maxlength="80">
+                </td>
+             </tr> 
+            </table>
+    </fieldset>
+  </body>
+</html>
